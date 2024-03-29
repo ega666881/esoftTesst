@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .house {
+    position: relative;
+  }
+  
+  .base {
+    width: 200px;
+    height: 150px;
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+  
+  .roof {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #8b0000;
+  }
+  
+  .window {
+    width: 50px;
+    height: 50px;
+    background-color: #87ceeb;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+.small-window {
+    width: 25px;
+    height: 50px;
+    background-color: black;
+}
+
+  .chimney {
+    width: 20px;
+    height: 50px;
+    background-color: #696969;
+    position: absolute;
+    top: -50px;
+    left: 90px;
+  }
